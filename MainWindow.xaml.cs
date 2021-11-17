@@ -65,7 +65,7 @@ namespace Hasmasan_Andrei_Lab5
             // Load data by setting the CollectionViewSource.Source property:
             // orderViewSource.Source = [generic data source]
 
-            customerOrdersVSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("customerOrdersViewSource")));
+            customerOrdersVSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("orderViewSource")));
 
             //customerOrdersVSource.Source = ctx.Orders.Local;
             ctx.Orders.Load();
